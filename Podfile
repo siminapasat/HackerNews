@@ -1,5 +1,6 @@
 def pods
   pod 'Firebase', '2.5.0'
+  pod 'MobileCenter'
 end
 
 target 'HackerNews' do

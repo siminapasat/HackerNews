@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import MobileCenter
+import MobileCenterAnalytics
+import MobileCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +24,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
     configureUI()
+    
+    var keys: NSDictionary?
+    
+    if let path = NSBundle.mainBundle().pathForResource("Keys", ofType: "plist") {
+      keys = NSDictionary(contentsOfFile: path)
+    }
+    if let dict = keys {
+      let MobileCenterSecret = dict["MobileCenterSecret"] as? String
+      MSMobileCenter.start(MobileCenterSecret, withServices:[
+        MSAnalytics.self,
+        MSCrashes.self
+        ])
+    }
     return true
   }
   
