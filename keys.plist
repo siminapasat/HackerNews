@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>MobileCenterSecret</key>
-	<string>$(MOBILE_CENTER_SECRET)</string>
+	<string>&quot;7bb1189a-d92d-42c6-8186-c12101001193&quot;</string>
 </dict>
 </plist>

@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var keys: NSDictionary?
     
-    if let path = NSBundle.mainBundle().pathForResource("Keys", ofType: "plist") {
+    if let path = NSBundle.mainBundle().pathForResource("keys", ofType: "plist") {
       keys = NSDictionary(contentsOfFile: path)
     }
     if let dict = keys {
@@ -36,9 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MSAnalytics.self,
         MSCrashes.self
         ])
-      let ColorSecret = dict["ColorSecret"] as? String
-      NSLog("MC Secret: %@", ColorSecret ?? "<nil>")
-
     }
     return true
   }
