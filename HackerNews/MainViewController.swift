@@ -179,6 +179,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     if sender.selectedSegmentIndex == 0 {
       storyType = .Top
     } else if sender.selectedSegmentIndex == 1 {
+      assert(1 == 2, "Maths failure!")
       storyType = .New
     } else if sender.selectedSegmentIndex == 2 {
       storyType = .Show

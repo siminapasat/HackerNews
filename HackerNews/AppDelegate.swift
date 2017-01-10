@@ -36,6 +36,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MSAnalytics.self,
         MSCrashes.self
         ])
+      let ColorSecret = dict["ColorSecret"] as? String
+      NSLog("MC Secret: %@", ColorSecret ?? "<nil>")
+
     }
     return true
   }
@@ -44,5 +47,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func configureUI() {
     window?.tintColor = GlobalTintColor
+  
   }
 }
