@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075979D6A80AA907E8C15434C532C221 /* FAuthData.h in Headers */ = {isa = PBXBuildFile; fileRef = E831E681644A893094EF5564AE3A9E46 /* FAuthData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C84EA9CAAB1A057C24B8BED3A86F0EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764F56587A817DAF4471759BE67F5970 /* Foundation.framework */; };
+		34FD3547EC7BE84E210C85B885CC2667 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE1CA2C649A7D498907EDA2BB79F456 /* CFNetwork.framework */; };
+		3FD61871A384128BD423ECB516B54AC8 /* FEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC83AC9CAE19C374826C4046AD465D2 /* FEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		471454559DA2051F2264CF2DF0C17475 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7336C3619B6C46F51EBB5A19DD32AEF5 /* Security.framework */; };
+		6A1B1829F5A55FB2979D58FB8F957AD7 /* FirebaseApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0787E9D7B92071BAF32DE34CEC8AAEE7 /* FirebaseApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE911B933800447253BC3935A13E65E /* FDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AA02958ED3E67DC97E55E4EADFD7CB /* FDataSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AA62F2857F832CC0351040DBF752D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764F56587A817DAF4471759BE67F5970 /* Foundation.framework */; };
+		7D871000FA90D9EDBAB955B5AE011A13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764F56587A817DAF4471759BE67F5970 /* Foundation.framework */; };
+		81FA10999B4B15CB748491C0A1E63CD5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16074B17A28C3B533169A6D610280008 /* SystemConfiguration.framework */; };
+		83126EA3B5E960F9A9C155CE3DACB9FB /* FConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C1AA667F8A318E0BA2015B498B23B15 /* FConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A8B2E7318F9A52B0C8DCF4991BD88E5 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B2F586C86002110F677FB13E7C7F5 /* Empty.m */; };
+		8F4F6C91327C6D43B7C6A83EBDC6184B /* FirebaseServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FE9B8071974E9F3A32238926E5E81F /* FirebaseServerValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5035EDCA2C178ABAC6CBF1C82D0C649 /* FMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E55962BF6D6AF535601D3B49C346FE4 /* FMutableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B41E32FB4ADB6C44FB3797B9BB77AE /* Firebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 209BC073405ABD43C9E4F03E956CB8BF /* Firebase-dummy.m */; };
+		C2B5C0E3F6BDF83554FC71E7C61D313E /* Pods-HackerNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B43F0B855BF667749E84B7AE034E18 /* Pods-HackerNews-dummy.m */; };
+		C9B2789B5C77981D226512D3AFA94AC2 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = DA23B25FD82C54470A37B99175E767E8 /* Firebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0338C1AE87443D0F36BFFF2D6270C6A /* Pods-HackerNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F36F9911256EA00C65570C9FE9EAC599 /* Pods-HackerNewsUITests-dummy.m */; };
+		D29D86661B99C954E8301C4157961A40 /* FTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD2208ED93CAB6B6EBB997CE7302E19 /* FTransactionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D34A8D6A07E1A0FE9F634AEC65115DF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764F56587A817DAF4471759BE67F5970 /* Foundation.framework */; };
+		F06664877754422D6FB53A1D8E4FE448 /* FAuthType.h in Headers */ = {isa = PBXBuildFile; fileRef = 958D81B896DF10ACFFCE76389D9A91EA /* FAuthType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F64F2A6BB93B1883890EC55D2040AD74 /* Pods-HackerNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D94542ACD3F80DAFBCA41B3D5B679CFB /* Pods-HackerNewsTests-dummy.m */; };
+		FC18554D24943F3FEEBC7222C7FD8D10 /* FQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F1F3FF65FFB61A07CC3DD0EDB686F8 /* FQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CD5690091064196C190F63CEBE5508C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569735B422E0E4CEEFC5C6955AFDE3A5;
+			remoteInfo = Firebase;
+		};
+		EDD9FF5F42957331AFD8A8B0F83BACEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569735B422E0E4CEEFC5C6955AFDE3A5;
+			remoteInfo = Firebase;
+		};
+		FC340BF159BFB75859605F71B6FE1D17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569735B422E0E4CEEFC5C6955AFDE3A5;
+			remoteInfo = Firebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0125C37C0B89BE523AB10437349BC344 /* Pods-HackerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.release.xcconfig"; sourceTree = "<group>"; };
+		05679894B0218EFE31FB8E89E40151CC /* Pods-HackerNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0787E9D7B92071BAF32DE34CEC8AAEE7 /* FirebaseApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseApp.h; sourceTree = "<group>"; };
+		07FE9B8071974E9F3A32238926E5E81F /* FirebaseServerValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseServerValue.h; sourceTree = "<group>"; };
+		08686598DC867B746B1D20FFEC7EF784 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
+		0C1AA667F8A318E0BA2015B498B23B15 /* FConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FConfig.h; sourceTree = "<group>"; };
+		0E67602AF469F9863253831F6D1EFE77 /* Pods-HackerNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16074B17A28C3B533169A6D610280008 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1680B28F3DD7FAEE1BCC0EF84B0B6D59 /* Pods-HackerNewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F13F707BE7DE28131E4768A291E3F11 /* Pods-HackerNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsUITests-resources.sh"; sourceTree = "<group>"; };
+		209BC073405ABD43C9E4F03E956CB8BF /* Firebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Firebase-dummy.m"; sourceTree = "<group>"; };
+		27F1F3FF65FFB61A07CC3DD0EDB686F8 /* FQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FQuery.h; sourceTree = "<group>"; };
+		3ED219999F59F6A588AC71758ABA5FA7 /* Pods-HackerNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46613BBCAEECB498F47E13914F126FCE /* Pods-HackerNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsTests-frameworks.sh"; sourceTree = "<group>"; };
+		524B2F586C86002110F677FB13E7C7F5 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		57576857F4505176BE8CBB84C49DC324 /* Pods-HackerNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5C12AF284183EBB78D4C6591BE5D2BA3 /* Pods-HackerNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		605E831BBF8AF35A8332BF033931E0CF /* Firebase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebase-prefix.pch"; sourceTree = "<group>"; };
+		62C4C750AD20A76AD6F257053C3757DA /* Firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebase.xcconfig; sourceTree = "<group>"; };
+		64CD1942295DE486D61F0F102121F2AA /* libPods-HackerNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE1CA2C649A7D498907EDA2BB79F456 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		6EC83AC9CAE19C374826C4046AD465D2 /* FEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEventType.h; sourceTree = "<group>"; };
+		70E65E167F5447CB8BDEC1087D5FFED1 /* Pods-HackerNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		7336C3619B6C46F51EBB5A19DD32AEF5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		764F56587A817DAF4471759BE67F5970 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E55962BF6D6AF535601D3B49C346FE4 /* FMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMutableData.h; sourceTree = "<group>"; };
+		7F84838A058313DCB035C0B2E0360A13 /* Pods-HackerNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FFB95D4AC2A5055C307476BD611A83C /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
+		90AA02958ED3E67DC97E55E4EADFD7CB /* FDataSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDataSnapshot.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958D81B896DF10ACFFCE76389D9A91EA /* FAuthType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthType.h; sourceTree = "<group>"; };
+		971FB65FD690D8ACB4508EECA172368F /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
+		A11F92816D21C753100A2925201C629C /* libPods-HackerNewsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNewsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD2208ED93CAB6B6EBB997CE7302E19 /* FTransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTransactionResult.h; sourceTree = "<group>"; };
+		B1E3E888D49DFDA753AC65D08511BA4F /* Pods-HackerNewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsTests-resources.sh"; sourceTree = "<group>"; };
+		B815FDFB2B2BD9FFDEAB452F7EBBB04F /* Pods-HackerNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-frameworks.sh"; sourceTree = "<group>"; };
+		B8B43F0B855BF667749E84B7AE034E18 /* Pods-HackerNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-dummy.m"; sourceTree = "<group>"; };
+		C01FF00903A05E49916463526BEA4301 /* Pods-HackerNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C60F8268DB852A2D16FF1ED478D1A849 /* libPods-HackerNewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HackerNewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94542ACD3F80DAFBCA41B3D5B679CFB /* Pods-HackerNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsTests-dummy.m"; sourceTree = "<group>"; };
+		DA23B25FD82C54470A37B99175E767E8 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		E622FAD7C585E11D339C5E62634A30CB /* libFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFirebase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E831E681644A893094EF5564AE3A9E46 /* FAuthData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthData.h; sourceTree = "<group>"; };
+		ED0266E2EF92C0C07112B885A5352094 /* Pods-HackerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.debug.xcconfig"; sourceTree = "<group>"; };
+		EF4BDE74C772555D10C4A0D45C706675 /* Pods-HackerNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF7834DC67D8ACD3EF13C4FCC8B0EF2E /* Pods-HackerNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F1F078122D40884275D41420A4004E0E /* Pods-HackerNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-resources.sh"; sourceTree = "<group>"; };
+		F36F9911256EA00C65570C9FE9EAC599 /* Pods-HackerNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsUITests-dummy.m"; sourceTree = "<group>"; };
+		FF94F44360044C77B065E5C5EE9F7159 /* libFirebaseStatic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libFirebaseStatic.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CF4CBDC81A25391F70A9BBC66C1D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D871000FA90D9EDBAB955B5AE011A13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0752994C4A747FD14D06E029A54AA303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C84EA9CAAB1A057C24B8BED3A86F0EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A0D9E586A6DF0B55408ED845B7B794C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AA62F2857F832CC0351040DBF752D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517AD8D3904844B971845D1995E200D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD3547EC7BE84E210C85B885CC2667 /* CFNetwork.framework in Frameworks */,
+				D34A8D6A07E1A0FE9F634AEC65115DF7 /* Foundation.framework in Frameworks */,
+				471454559DA2051F2264CF2DF0C17475 /* Security.framework in Frameworks */,
+				81FA10999B4B15CB748491C0A1E63CD5 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DDE4C4CE861D2C56662651B2F73D41 /* Pods-HackerNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1680B28F3DD7FAEE1BCC0EF84B0B6D59 /* Pods-HackerNewsUITests-acknowledgements.markdown */,
+				EF4BDE74C772555D10C4A0D45C706675 /* Pods-HackerNewsUITests-acknowledgements.plist */,
+				F36F9911256EA00C65570C9FE9EAC599 /* Pods-HackerNewsUITests-dummy.m */,
+				57576857F4505176BE8CBB84C49DC324 /* Pods-HackerNewsUITests-frameworks.sh */,
+				1F13F707BE7DE28131E4768A291E3F11 /* Pods-HackerNewsUITests-resources.sh */,
+				C01FF00903A05E49916463526BEA4301 /* Pods-HackerNewsUITests.debug.xcconfig */,
+				3ED219999F59F6A588AC71758ABA5FA7 /* Pods-HackerNewsUITests.release.xcconfig */,
+			);
+			name = "Pods-HackerNewsUITests";
+			path = "Target Support Files/Pods-HackerNewsUITests";
+			sourceTree = "<group>";
+		};
+		04AF2D86CA1AA5F075B528397618BD28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8A01F9B6811885A29391242273F917E /* Pods-HackerNews */,
+				9F3A322688052C0FC434B2B1AE5CCA3E /* Pods-HackerNewsTests */,
+				03DDE4C4CE861D2C56662651B2F73D41 /* Pods-HackerNewsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21E8101B1E2DBD0F5665941ACCDCEC22 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21E8101B1E2DBD0F5665941ACCDCEC22 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6DE1CA2C649A7D498907EDA2BB79F456 /* CFNetwork.framework */,
+				764F56587A817DAF4471759BE67F5970 /* Foundation.framework */,
+				7336C3619B6C46F51EBB5A19DD32AEF5 /* Security.framework */,
+				16074B17A28C3B533169A6D610280008 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		25738658249E111BA8A20448EA559929 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C4C750AD20A76AD6F257053C3757DA /* Firebase.xcconfig */,
+				209BC073405ABD43C9E4F03E956CB8BF /* Firebase-dummy.m */,
+				605E831BBF8AF35A8332BF033931E0CF /* Firebase-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Firebase";
+			sourceTree = "<group>";
+		};
+		4F18C5F1426605AF2941C4E93D565BBA /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				524B2F586C86002110F677FB13E7C7F5 /* Empty.m */,
+				E831E681644A893094EF5564AE3A9E46 /* FAuthData.h */,
+				958D81B896DF10ACFFCE76389D9A91EA /* FAuthType.h */,
+				0C1AA667F8A318E0BA2015B498B23B15 /* FConfig.h */,
+				90AA02958ED3E67DC97E55E4EADFD7CB /* FDataSnapshot.h */,
+				6EC83AC9CAE19C374826C4046AD465D2 /* FEventType.h */,
+				DA23B25FD82C54470A37B99175E767E8 /* Firebase.h */,
+				0787E9D7B92071BAF32DE34CEC8AAEE7 /* FirebaseApp.h */,
+				07FE9B8071974E9F3A32238926E5E81F /* FirebaseServerValue.h */,
+				7E55962BF6D6AF535601D3B49C346FE4 /* FMutableData.h */,
+				27F1F3FF65FFB61A07CC3DD0EDB686F8 /* FQuery.h */,
+				ACD2208ED93CAB6B6EBB997CE7302E19 /* FTransactionResult.h */,
+				C03395F62E5814F09212D3324B1F90FA /* Frameworks */,
+				25738658249E111BA8A20448EA559929 /* Support Files */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		52D22C737B2899FE6AB3448A8EBDE483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E622FAD7C585E11D339C5E62634A30CB /* libFirebase.a */,
+				64CD1942295DE486D61F0F102121F2AA /* libPods-HackerNews.a */,
+				C60F8268DB852A2D16FF1ED478D1A849 /* libPods-HackerNewsTests.a */,
+				A11F92816D21C753100A2925201C629C /* libPods-HackerNewsUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5501C30087F3FC68B5545ACE0772D35F /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				A1300F4E40FD045D9BF0990FF5CE60AD /* MobileCenter */,
+				55152BEF2806DC021452E06A7A6C44A1 /* MobileCenterAnalytics */,
+				7E58570A66EC6C8F17585011D2440976 /* MobileCenterCrashes */,
+			);
+			path = MobileCenter;
+			sourceTree = "<group>";
+		};
+		55152BEF2806DC021452E06A7A6C44A1 /* MobileCenterAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				ABDCD31E1EB87759562C22CDB6D8F42D /* Frameworks */,
+			);
+			name = MobileCenterAnalytics;
+			sourceTree = "<group>";
+		};
+		72EE50ED3BE769FF71D1F00123B3DFB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F18C5F1426605AF2941C4E93D565BBA /* Firebase */,
+				5501C30087F3FC68B5545ACE0772D35F /* MobileCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				72EE50ED3BE769FF71D1F00123B3DFB0 /* Pods */,
+				52D22C737B2899FE6AB3448A8EBDE483 /* Products */,
+				04AF2D86CA1AA5F075B528397618BD28 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E58570A66EC6C8F17585011D2440976 /* MobileCenterCrashes */ = {
+			isa = PBXGroup;
+			children = (
+				EF30167AC04AFF365C4F508968C8231C /* Frameworks */,
+			);
+			name = MobileCenterCrashes;
+			sourceTree = "<group>";
+		};
+		825F4C50A3C9ACCC7CCAC3DA316FA2D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB95D4AC2A5055C307476BD611A83C /* MobileCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F3A322688052C0FC434B2B1AE5CCA3E /* Pods-HackerNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				05679894B0218EFE31FB8E89E40151CC /* Pods-HackerNewsTests-acknowledgements.markdown */,
+				5C12AF284183EBB78D4C6591BE5D2BA3 /* Pods-HackerNewsTests-acknowledgements.plist */,
+				D94542ACD3F80DAFBCA41B3D5B679CFB /* Pods-HackerNewsTests-dummy.m */,
+				46613BBCAEECB498F47E13914F126FCE /* Pods-HackerNewsTests-frameworks.sh */,
+				B1E3E888D49DFDA753AC65D08511BA4F /* Pods-HackerNewsTests-resources.sh */,
+				7F84838A058313DCB035C0B2E0360A13 /* Pods-HackerNewsTests.debug.xcconfig */,
+				EF7834DC67D8ACD3EF13C4FCC8B0EF2E /* Pods-HackerNewsTests.release.xcconfig */,
+			);
+			name = "Pods-HackerNewsTests";
+			path = "Target Support Files/Pods-HackerNewsTests";
+			sourceTree = "<group>";
+		};
+		A1300F4E40FD045D9BF0990FF5CE60AD /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				825F4C50A3C9ACCC7CCAC3DA316FA2D8 /* Frameworks */,
+			);
+			name = MobileCenter;
+			sourceTree = "<group>";
+		};
+		A8A01F9B6811885A29391242273F917E /* Pods-HackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				0E67602AF469F9863253831F6D1EFE77 /* Pods-HackerNews-acknowledgements.markdown */,
+				70E65E167F5447CB8BDEC1087D5FFED1 /* Pods-HackerNews-acknowledgements.plist */,
+				B8B43F0B855BF667749E84B7AE034E18 /* Pods-HackerNews-dummy.m */,
+				B815FDFB2B2BD9FFDEAB452F7EBBB04F /* Pods-HackerNews-frameworks.sh */,
+				F1F078122D40884275D41420A4004E0E /* Pods-HackerNews-resources.sh */,
+				ED0266E2EF92C0C07112B885A5352094 /* Pods-HackerNews.debug.xcconfig */,
+				0125C37C0B89BE523AB10437349BC344 /* Pods-HackerNews.release.xcconfig */,
+			);
+			name = "Pods-HackerNews";
+			path = "Target Support Files/Pods-HackerNews";
+			sourceTree = "<group>";
+		};
+		ABDCD31E1EB87759562C22CDB6D8F42D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971FB65FD690D8ACB4508EECA172368F /* MobileCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03395F62E5814F09212D3324B1F90FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF94F44360044C77B065E5C5EE9F7159 /* libFirebaseStatic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF30167AC04AFF365C4F508968C8231C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08686598DC867B746B1D20FFEC7EF784 /* MobileCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11B07EDA26BA9DAE2415B87999509E89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075979D6A80AA907E8C15434C532C221 /* FAuthData.h in Headers */,
+				F06664877754422D6FB53A1D8E4FE448 /* FAuthType.h in Headers */,
+				83126EA3B5E960F9A9C155CE3DACB9FB /* FConfig.h in Headers */,
+				6EE911B933800447253BC3935A13E65E /* FDataSnapshot.h in Headers */,
+				3FD61871A384128BD423ECB516B54AC8 /* FEventType.h in Headers */,
+				C9B2789B5C77981D226512D3AFA94AC2 /* Firebase.h in Headers */,
+				6A1B1829F5A55FB2979D58FB8F957AD7 /* FirebaseApp.h in Headers */,
+				8F4F6C91327C6D43B7C6A83EBDC6184B /* FirebaseServerValue.h in Headers */,
+				A5035EDCA2C178ABAC6CBF1C82D0C649 /* FMutableData.h in Headers */,
+				FC18554D24943F3FEEBC7222C7FD8D10 /* FQuery.h in Headers */,
+				D29D86661B99C954E8301C4157961A40 /* FTransactionResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		069FAB957A14E2FE9AD4A803A44F7F66 /* Pods-HackerNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA64CABBB249054FF9415D340FE98F9 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */;
+			buildPhases = (
+				BE6A77682893DAE5330842F314BCC631 /* Sources */,
+				04CF4CBDC81A25391F70A9BBC66C1D92 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518C6BE6A02DA2005919544A0496AEC4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNewsUITests";
+			productName = "Pods-HackerNewsUITests";
+			productReference = A11F92816D21C753100A2925201C629C /* libPods-HackerNewsUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1DFC9F76C3C7BA369EC67736830DFF41 /* Pods-HackerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 685CDF02F70F8EC3504130E1CBB39AEE /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */;
+			buildPhases = (
+				63790240EA5687D8B50DDD0322D2902B /* Sources */,
+				1A0D9E586A6DF0B55408ED845B7B794C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37E58BCDACE570D59281B71120C8E3B /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNews";
+			productName = "Pods-HackerNews";
+			productReference = 64CD1942295DE486D61F0F102121F2AA /* libPods-HackerNews.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		569735B422E0E4CEEFC5C6955AFDE3A5 /* Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048D8D02C9F5F6B4FAB719C7488039B1 /* Build configuration list for PBXNativeTarget "Firebase" */;
+			buildPhases = (
+				4FDE5E0B37287615FB2FA4693FF4F294 /* Sources */,
+				517AD8D3904844B971845D1995E200D7 /* Frameworks */,
+				11B07EDA26BA9DAE2415B87999509E89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebase;
+			productName = Firebase;
+			productReference = E622FAD7C585E11D339C5E62634A30CB /* libFirebase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A5ADFF2731E1F0C2D96DD8A8E58216FA /* Pods-HackerNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060420476CC5419ED1AD0D3ACEDFA3B8 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */;
+			buildPhases = (
+				C3DCC1E6B23771D4E6A133D95ACFA155 /* Sources */,
+				0752994C4A747FD14D06E029A54AA303 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB9AC84B593C70643829298BA7662C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNewsTests";
+			productName = "Pods-HackerNewsTests";
+			productReference = C60F8268DB852A2D16FF1ED478D1A849 /* libPods-HackerNewsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 52D22C737B2899FE6AB3448A8EBDE483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569735B422E0E4CEEFC5C6955AFDE3A5 /* Firebase */,
+				1DFC9F76C3C7BA369EC67736830DFF41 /* Pods-HackerNews */,
+				A5ADFF2731E1F0C2D96DD8A8E58216FA /* Pods-HackerNewsTests */,
+				069FAB957A14E2FE9AD4A803A44F7F66 /* Pods-HackerNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FDE5E0B37287615FB2FA4693FF4F294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8B2E7318F9A52B0C8DCF4991BD88E5 /* Empty.m in Sources */,
+				B7B41E32FB4ADB6C44FB3797B9BB77AE /* Firebase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63790240EA5687D8B50DDD0322D2902B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B5C0E3F6BDF83554FC71E7C61D313E /* Pods-HackerNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6A77682893DAE5330842F314BCC631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0338C1AE87443D0F36BFFF2D6270C6A /* Pods-HackerNewsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DCC1E6B23771D4E6A133D95ACFA155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64F2A6BB93B1883890EC55D2040AD74 /* Pods-HackerNewsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CB9AC84B593C70643829298BA7662C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebase;
+			target = 569735B422E0E4CEEFC5C6955AFDE3A5 /* Firebase */;
+			targetProxy = 4CD5690091064196C190F63CEBE5508C /* PBXContainerItemProxy */;
+		};
+		518C6BE6A02DA2005919544A0496AEC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebase;
+			target = 569735B422E0E4CEEFC5C6955AFDE3A5 /* Firebase */;
+			targetProxy = EDD9FF5F42957331AFD8A8B0F83BACEA /* PBXContainerItemProxy */;
+		};
+		A37E58BCDACE570D59281B71120C8E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebase;
+			target = 569735B422E0E4CEEFC5C6955AFDE3A5 /* Firebase */;
+			targetProxy = FC340BF159BFB75859605F71B6FE1D17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FD8E1A01F67F5DC0BEBA029CC5C851F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C4C750AD20A76AD6F257053C3757DA /* Firebase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		19289131E2E6004B1E8F3A158EE007E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01FF00903A05E49916463526BEA4301 /* Pods-HackerNewsUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		29567465B1478A35F1A0DE390E2A4E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED219999F59F6A588AC71758ABA5FA7 /* Pods-HackerNewsUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		42CD2ED8D75E0C6A3B9EFD1D1750A8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0266E2EF92C0C07112B885A5352094 /* Pods-HackerNews.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		46EE69AF77A148AF92860F097B5698B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7A156876A8824526ED495550DF098FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6ED30F4B4282E6DEB4431F32763E249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C4C750AD20A76AD6F257053C3757DA /* Firebase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D66152D373B6D1B62CA922AB46105D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0125C37C0B89BE523AB10437349BC344 /* Pods-HackerNews.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2A866AFA77EC29118403DF03A8DE52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7834DC67D8ACD3EF13C4FCC8B0EF2E /* Pods-HackerNewsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F886A333AA2C4C98CCE5FB67BDBC6103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F84838A058313DCB035C0B2E0360A13 /* Pods-HackerNewsTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048D8D02C9F5F6B4FAB719C7488039B1 /* Build configuration list for PBXNativeTarget "Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD8E1A01F67F5DC0BEBA029CC5C851F /* Debug */,
+				A6ED30F4B4282E6DEB4431F32763E249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060420476CC5419ED1AD0D3ACEDFA3B8 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F886A333AA2C4C98CCE5FB67BDBC6103 /* Debug */,
+				E2A866AFA77EC29118403DF03A8DE52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE69AF77A148AF92860F097B5698B1 /* Debug */,
+				7A156876A8824526ED495550DF098FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		685CDF02F70F8EC3504130E1CBB39AEE /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CD2ED8D75E0C6A3B9EFD1D1750A8B6 /* Debug */,
+				D66152D373B6D1B62CA922AB46105D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA64CABBB249054FF9415D340FE98F9 /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19289131E2E6004B1E8F3A158EE007E9 /* Debug */,
+				29567465B1478A35F1A0DE390E2A4E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
