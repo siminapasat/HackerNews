@@ -1,6 +1,6 @@
 # HackerNews
 
-A Hacker News reader iOS app written in Swift.
+A Hacker News reader iOS app written in Swift. This is so out of date :)
 
 ## Features
 
